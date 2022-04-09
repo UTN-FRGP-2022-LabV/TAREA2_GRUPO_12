@@ -1,0 +1,11 @@
+09/04/2022 - Sergio Palacio
+*	Se agregó la clase MatrizAdyacenciaTest.java
+*	Se agregaron los casos de test del TP, solo se implementaron los primeros 3.
+*	Se creó la Test Suite "AllPackageTest"
+
+Falta:
+*	Implementar los casos de test desde el punto d hasta i.
+*	Implementar el test suite "AllClassTest" del punto 4 del TP.
+*	Correr todos los test y probar todo.
+----------------------------------------------------------------------------
+
