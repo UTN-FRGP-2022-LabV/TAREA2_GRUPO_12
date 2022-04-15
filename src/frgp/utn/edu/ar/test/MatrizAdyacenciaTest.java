@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import frgp.utn.edu.ar.main.MatrizAdyacencia;
 
-class MatrizAdyacenciaTest {
+public class MatrizAdyacenciaTest {
 
 	MatrizAdyacencia matriz = new MatrizAdyacencia(10);
 	
