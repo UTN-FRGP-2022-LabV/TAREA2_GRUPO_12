@@ -11,8 +11,14 @@ public class MatrizAdyacencia {
 		_ady = new boolean[cant][cant];
 	}
 	
-	public void agregarElemento(int i, int j)
+	public void agregarElemento(int i, int j) throws Exception
 	{
+		if (i < 0)
+			throw new Exception("Fila Negativa Error");
+		if (j < 0)
+			throw new Exception("Columna Negativa Error");
+		if (i > cantElementos || j > cantElementos)
+			throw new Exception("Elemento Fuera de Rango");
 		_ady[i][j] = true;
 		_ady[j][i] = true;
 	}
